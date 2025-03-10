@@ -63,4 +63,9 @@ function contatarSuporte() {
     window.open(whatsapp, "_blank");
 }
 
+function contatarSuporte()() {
+    let mensagem = "Olá, preciso de suporte técnico.";
+    let telegram = `https://t.me/marcones_ms?text=${encodeURIComponent(mensagem)}`;
+    window.open(telegram, "_blank");
+}
 window.onload = carregarServicos;
