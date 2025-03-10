@@ -57,15 +57,12 @@ function comprarServico(nome, preco) {
     window.open(whatsapp, "_blank");
 }
 
-function contatarSuporte() {
-    let mensagem = "Olá, preciso de suporte técnico.";
-    let whatsapp = `https://wa.me/5598991711256?text=${encodeURIComponent(mensagem)}`;
-    window.open(whatsapp, "_blank");
+function contatarWhatsApp() {
+    window.open("https://wa.me/5598991711256", "_blank");
 }
 
 function contatarTelegram() {
-    let telegram = "https://t.me/Marcones_ms";
-    window.open(telegram, "_blank");
+    window.open("https://t.me/Marcones_ms", "_blank");
 }
 
 window.onload = carregarServicos;
