@@ -63,4 +63,9 @@ function contatarSuporte() {
     window.open(whatsapp, "_blank");
 }
 
+function contatarTelegram() {
+    let telegram = "https://t.me/Marcones_ms";
+    window.open(telegram, "_blank");
+}
+
 window.onload = carregarServicos;
