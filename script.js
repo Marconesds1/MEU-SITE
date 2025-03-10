@@ -53,19 +53,19 @@ function carregarServicos() {
 
 function comprarServico(nome, preco) {
     let mensagem = `Olá, gostaria de comprar o serviço:\n\n${nome} - R$ ${preco},00`;
-    let whatsapp = `https://wa.me/5598991711256?text=${encodeURIComponent(mensagem)}`;
-    window.open(whatsapp, "_blank");
+    let link = `https://wa.me/5598991711256?text=${encodeURIComponent(mensagem)}`;
+    window.open(link, "_blank");
 }
 
-function contatarSuporte() {
+function contatarWhatsApp() {
     let mensagem = "Olá, preciso de suporte técnico.";
-    let whatsapp = `https://wa.me/5598991711256?text=${encodeURIComponent(mensagem)}`;
-    window.open(whatsapp, "_blank");
+    let link = `https://wa.me/5598991711256?text=${encodeURIComponent(mensagem)}`;
+    window.open(link, "_blank");
 }
 
-function contatarSuporte()() {
-    let mensagem = "Olá, preciso de suporte técnico.";
-    let telegram = `https://t.me/marcones_ms?text=${encodeURIComponent(mensagem)}`;
-    window.open(telegram, "_blank");
+function contatarTelegram() {
+    let link = "https://t.me/Marcones_ms";
+    window.open(link, "_blank");
 }
+
 window.onload = carregarServicos;
